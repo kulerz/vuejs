@@ -12,10 +12,6 @@ import Vue from 'vue'
 import plugin from '../../src/plugin/plugin.js'
 Vue.use(plugin)
 
-// 注入组件
-new Vue({
-  myOption: 'Hello Vue.js!'
-})
 
 export default {
   name: 'test',
